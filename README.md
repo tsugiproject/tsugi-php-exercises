@@ -8,26 +8,27 @@ to describe each task.  You can see a hosted copy of the specs at:
 
 * [Tsugi Exercise Specs](https://lti-tools.dr-chuck.com/tsugi-php-exercises/)
 
+Pre-Requisites
+--------------
+
+In the simple installation scenario, you have already installed,
+configured, and set up the databases for Tsugi in a folder like:
+
+    htdocs/tsugi
+
+
 You probably want to fork this repository before you check it out
-so you can check your code into your own copy of this repo.
+so you can check your code into your own copy of this repo into a peer
+folder right next to `htdocs/tsugi`.
+
+    cd htdocs
+    git clone https://github.com/YOUR_GITHUB/tsugi-php-exercises.git 
+
 
 Simple Installation and Configuration
 -------------------------------------
 
-In the simple installation scenario, you have already installed and 
-configured Tsugi in a folder like:
-
-    htdocs/tsugi
-
-Once you have checked this code out, you need to create a config.php that
-simply includes the `config.php` from the Tsugi directory.   For example
-if you checked this code into a "peer" folder next to `tsugi`, your
-`config.php` in this folder should be:
-
-    <?php 
-    require_once "../tsugi/config.php";
-
-You will also need to inform Tsugi to search the new tool's folder
+You will need to inform Tsugi to search the new tool's folder
 for files like `index.php`, `register.php`, and `database.php`.
 To do this, edite the `$CFG->tool_folders` parameter in the 
 Tsugi `config.php` file to include the relative path to this tool.
@@ -55,8 +56,8 @@ and launching.
 Tsugi Developer List
 --------------------
 
-Once you start developing Tsugi Applications, you should join the Tsugi 
-Developers list so you can get announcements when things change.
+You should join the Tsugi Developers list so you can get 
+announcements when things change.
 
     https://groups.google.com/a/apereo.org/forum/#!forum/tsugi-dev
 

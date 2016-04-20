@@ -1,6 +1,5 @@
 <?php
-require_once "../../config.php";
-\Tsugi\Core\LTIX::getConnection();
+require_once "../config.php";
 
 use \Tsugi\Core\LTIX;
 
