@@ -6,7 +6,7 @@ This is a simple set of exercises that you can download and work on.
 There are a set of specifications linked from the `index.php` file
 to describe each task.  You can see a hosted copy of the specs at:
 
-* [Tsugi Exercise Specs](https://lti-tools.dr-chuck.com/tsugi-php-exercises/)
+* [Tsugi Exercise Specs](https://lti-tools.dr-chuck.com/exercises/)
 
 Pre-Requisites
 --------------
