@@ -33,8 +33,8 @@ for files like `index.php`, `register.php`, and `database.php`.
 To do this, edite the `$CFG->tool_folders` parameter in the 
 Tsugi `config.php` file to include the relative path to this tool.
 
-    $CFG->tool_folders = array("admin", "mod", ... ,
-        "exercises", "../tsugi-php-exercises");
+    $CFG->tool_folders = array("admin", "mod", 
+        ... , "../tsugi-php-exercises");
 
 Once you have connected this tool to a Tsugi install as described above, 
 you can use the Admin/Database Upgrade feature to create / maintain database 
