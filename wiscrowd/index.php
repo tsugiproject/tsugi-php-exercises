@@ -17,6 +17,7 @@ $p = $CFG->dbprefix;
 
 $OUTPUT->header(); // Start the document and begin the <head>
 $OUTPUT->bodyStart(); // Finish the </head> and start the <body>
+$OUTPUT->topNav();
 $OUTPUT->flashMessages(); // Print out the $_SESSION['success'] and error messages
 
 // A partial form styled using Twitter Bootstrap
@@ -31,7 +32,7 @@ echo("\n</form>\n");
 // Note that addSession() is not needed here because PHP autmatically handles
 // PHPSESSID on anchor tags and in forms.
 if ( $USER->instructor ) {
-    echo('<p><a href="debug.php" target="_blank">Debug Print Session Data</a></p>');
+    echo('<p><a href="debug.php">Debug Print Session Data</a></p>');
     echo("\n");
 }
 
