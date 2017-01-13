@@ -2,7 +2,7 @@
 Tsugi Workshop Exercises
 ========================
 
-This is a component of the [Tsugi PHP Project](https://github.com/csev/tsugi).
+This is a component of the [Tsugi PHP Project](https://github.com/tsugiproject/tsugi).
 
 This is a simple set of exercises that you can download and work on.
 There are a set of specifications linked from the `index.php` file
