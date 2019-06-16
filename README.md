@@ -41,7 +41,7 @@ Tsugi `config.php` file to include the relative path to this tool.
 Once you have connected this tool to a Tsugi install as described above, 
 you can use the Admin/Database Upgrade feature to create / maintain database 
 tables for these tools.  You can also use the Developer mode of that Tsugi to
-test launch this tool.   The LTI 2.0 support, CASA Support, and Content Item
+test launch this tool.   The App Store Deep Linking, and Content Item
 support for the controlling Tsugi will know about this tool.
 
 Launching and Testing This Code
